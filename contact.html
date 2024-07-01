@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <form action="">
+        <h2>Contact Information</h2>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" required>
+        <br>
+
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName">
+        <br>
+
+        <label for="address">Address</label> 
+        <textarea name="address" id="address" rows="4" cols="24"></textarea>
+        <br>
+
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+            <option value=""></option>
+            <option value="male">Assigned Male at Birth (AMAB) </option>
+            <option value="female">Assigned Female at Birth (AFAB) </option>
+            <option value="undisclosed">Prefer not to say</option>
+        </select>
+        <br>
+
+        <h4>Favorite PC Game</h4>
+        <img src="https://www.riotgames.com/darkroom/1440/d0807e131a84f2e42c7a303bda672789:3d02afa7e0bfb75f645d97467765b24c/valorant-offwhitelaunch-keyart.jpg" alt="valorant.jpg" height="100px" width="200px">
+        <br>
+        <input type="radio" id="valorant" name="pcGame" value="valorant">
+        <label for="valorant">Valorant</label> 
+        <br><br>
+        <img src="https://cdn1.epicgames.com/offer/24b9b5e323bc40eea252a10cdd3b2f10/EGS_LeagueofLegends_RiotGames_S1_2560x1440-80471666c140f790f28dff68d72c384b" alt="leagueoflegends.jpg" height="100px" width="200px">
+        <br>
+        <input type="radio" id="leagueOflegends" name="pcGame" value="leagueOflegends">
+        <label for="leagueOflegends">League of Legends</label>
+        <br><br>
+        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/capsule_616x353.jpg?t=1719426369" alt="dota2.jpg" height="100px" width="200px">
+        <br>
+        <input type="radio" id="dota2" name="pcGame" value="dota2">
+        <label for="dota2">Dota 2</label>
+        <br><br>
+        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/capsule_616x353.jpg?t=1719426374" alt="csgo.jpg" height="100px" width="200px">
+        <br>
+        <input type="radio" id="csgo" name="pcGame" value="csgo">
+        <label for="csgo">Counter Strike Globel Offensive</label>
+        <br>
+        <label for="othersPCgame">Others</label>
+        <input type="text" name="pcGame" id="othersPCgame">
+        <br><br>
+
+
+        <p><strong>Gaming Platforms</strong> <br>Select all applicable gaming platforms that you use.</p>
+        <input type="checkbox" name="gamingPlatform" id="playstation">
+        <label for="playstation">Playstation</label>
+        <input type="checkbox" name="gamingPlatform" id="xbox">
+        <label for="xbox">Xbox</label>
+        <input type="checkbox" name="gamingPlatform" id="pc">
+        <label for="pc">Desktop Computer</label>
+        <input type="checkbox" name="gamingPlatform" id="switch">
+        <label for="switch">Nintendo Switch</label>
+        <input type="checkbox" name="gamingPlatform" id="steamDeck">
+        <label for="steamDeck">Steam Deck</label>
+        <input type="checkbox" name="gamingPlatform" id="mobile">
+        <label for="mobile">Cellphone Mobile</label>
+        <br>
+        <label for="othersGamingplatform">Others</label>
+        <input type="text" name="gamingPlatform" id="othersGamingplatform">
+    </form>
+    <br><br>
+    <button>Submit Form</button>
+</body>
+</html>
